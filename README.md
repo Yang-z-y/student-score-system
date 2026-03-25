@@ -9,3 +9,5 @@ Git 多人协作实验仓库
 分工：
 - 组长：学生表、教师表
 - 组员：课程表、选课成绩表
+
+https://github.com/Yang-z-y/student-score-system
