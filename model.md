@@ -64,7 +64,7 @@
 
 **| course\_id | INT | NOT NULL, FOREIGN KEY → course(course\_id) | 课程号 |**
 
-**| score | DECIMAL(5,2) | CHECK (score >= 0 AND score <= 100) | 成绩（0-100分） |**
+**| score | DECIMAL(5,2) | CHECK (score BETWEEN 0 AND 100) | 成绩（0-100分） |**
 
 **| | | UNIQUE(student\_id, course\_id) | 防止重复选课 |**
 
