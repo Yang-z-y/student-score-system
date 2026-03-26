@@ -32,7 +32,7 @@
 
 |字段名|数据类型|约束|说明|
 |-|-|-|-|
-|id|INT|PRIMARY KEY AUTO\_INCREMENT|记录编号|
+|score\_id|INT|PRIMARY KEY AUTO\_INCREMENT|记录编号|
 |student\_id|INT|NOT NULL, FOREIGN KEY → student(student\_id)|学号|
 |course\_id|INT|NOT NULL, FOREIGN KEY → course(course\_id)|课程号|
 |score|DECIMAL(5,2)|CHECK (score BETWEEN 0 AND 100)|成绩（0-100分）|
